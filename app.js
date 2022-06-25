@@ -2,7 +2,7 @@ var express       =require("express");
 var app           =express();
 var bodyParser    =require("body-parser");
 var mongoose      =require("mongoose");
-mongoose.connect("mongodb+srv://iec2019037:Passmongodb1089!@cluster0-3t2z2.gcp.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect("mongodb+srv://dbuser:pass123@cluster0.9cezs.mongodb.net/?retryWrites=true&w=majority");
 var Campground    =require("./models/campground");
 var seedDB        =require("./seeds");
 var Comment       =require("./models/comment");
